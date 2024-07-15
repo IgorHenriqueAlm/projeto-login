@@ -30,6 +30,8 @@ section#login{
     left: 50%;
     transform: translate(-50%,-50%);
     overflow: hidden; /* tudo q ficar fora da borda ficar escondido(foi usado p cortar a borda da imagem) */
+    transition: width .3s , heigth .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
