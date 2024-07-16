@@ -7,6 +7,11 @@
     box-sizing: border-box; /* broda fazer parte do tamanho total da caixa */
 }
 
+    ::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+    }
+
 html ,body{
     background-image: linear-gradient(to top,#49a09d,#5f2c82);
     height: 100vh;
