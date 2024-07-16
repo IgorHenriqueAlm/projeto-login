@@ -7,11 +7,6 @@
     box-sizing: border-box; /* broda fazer parte do tamanho total da caixa */
 }
 
-    ::-webkit-scrollbar{
-        width: 0px;
-        height: 0px;
-    }
-
 html ,body{
     background-image: linear-gradient(to top,#49a09d,#5f2c82);
     height: 100vh;
@@ -88,7 +83,7 @@ div.campo >input{
     border: 0;
     border-radius: 5px;
     padding: 4px;
-    transform: translateY(-11.7px);
+    transform: translateY(-12.7px);
 }
 
 div.campo >input:focus-within{
@@ -131,7 +126,7 @@ form > a#botao:hover{
 }
 
 form > a#botao > span{
-    font-size: .8em;
+
 }
 
 @media screen and (orientation:landscape){
