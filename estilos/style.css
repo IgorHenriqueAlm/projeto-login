@@ -8,7 +8,7 @@
 }
 
 html ,body{
-    background-color: #5f2c82;
+    background-image: linear-gradient(to top,#49a09d,#5f2c82);
     height: 100vh;
     width: 100vw;
 }
@@ -127,4 +127,22 @@ form > a#botao:hover{
 
 form > a#botao > span{
     font-size: .8em;
+}
+
+@media screen and (orientation:landscape){
+    section#login{
+        width: 80vw;
+        height: 290px;
+    }
+    
+    section#login >div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
 }
