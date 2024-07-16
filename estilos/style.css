@@ -126,7 +126,8 @@ form > a#botao:hover{
 }
 
 form > a#botao > span{
-
+    transform: translateY(5px);
+    padding-left: 5px;
 }
 
 @media screen and (orientation:landscape){
